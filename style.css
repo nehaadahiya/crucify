@@ -383,7 +383,8 @@ text-align: center;
 #contact-details .details p{
  font-size: 14px;
  color:#000;
- 
+ line-height:14px;
+
 }
 
 .contact-container{
@@ -546,9 +547,9 @@ text-align: center;
   filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
-.wrapper {
+/* .wrapper {
   background-color: red;
-}
+} */
 
 span {
   border-radius: 100px;
@@ -558,7 +559,8 @@ span {
 
 #content {
   height: 45em;
-} p {
+} 
+#quote {
   max-width: 30em;
   color: white;
   font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
@@ -569,9 +571,9 @@ span {
   line-height: 145%;
   font-size: 2em;
   font-variant: small-caps;
-}
+} 
 
-p :hover {
+#quote :hover {
   text-decoration: none;
 }
 
