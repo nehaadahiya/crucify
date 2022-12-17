@@ -67,6 +67,68 @@
         <button class="normal">Sign Up</button>
       </div>
     </section>
+    <!-- HMTL forms -->
+  <div class="register-section">
+    <h1>Register with us</h1>
+    <div class="row">
+      <div class="col-md-5">
+        <div class="register-img">
+          <img src="image/register image.webp " width="100%" alt="">
+        </div>
+
+      </div>
+      <div class="col-md-7">
+        <div class="form-container">
+          <form>
+            <label for="name"> Name:</label> <br>
+            <input type="text" id="name" placeholder="Full Name" required> <br> 
+
+            <label for=""> Email:</label> <br>
+            <input type="email"> <br>
+
+            <label for="">Contact Number:</label><br>
+            <input type="number" readonly disabled > <br>
+
+            <label for="">Gender</label> <br>
+            <input type="radio" name="Gender" value="Male"> Male
+            <input type="radio" name="Gender" value="Female">Female
+            <input type="radio" name="Gender" value="Other">Other
+            <input type="radio" name="Gender" value="Do not want to mention">Do not want to mention <br>
+            
+            <label for="">Skills</label> <br>
+            <input type="checkbox" name="skill" value="HtML"> HTML
+            <input type="checkbox" name="skill" value="CSS"> CSS
+            <input type="checkbox" name="skill" value="bootstrap"> Bootstrap
+            <input type="checkbox" name="skill" value="MySQL"> MySQL <br>
+
+            <label for=""> Branch</label> <br>
+            <select name="Branch" id="">
+              <option value="">---Select Branch---</option>
+              <option value="CSE">Computer Science Engineering</option>
+              <option value="IT">Information Technology</option>
+              <option value="ME">Mechanical Engineering</option>
+              <option value="CE">Civil Engineering</option>
+            </select>
+
+            <label for="">Upload Profile Picture</label> <br>
+            <input type="file">  <br>Max file size 200KB <br>
+
+            <label for="">DOB</label> <br>
+            <input type="date"> <br>
+
+            <input type="password" placeholder="New Password"> <br>
+
+            <button type="button" onclick="edit();">Edit</button>
+            <button type="submit">Submit</button>
+            <button type="reset">Refresh  </button>
+
+          </form>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
 
     <!-- footer -->
     <footer class="section-p1">
