@@ -176,7 +176,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image:url('image/conceptualtoyaskinghelp.jpeg');
+    background-image:url(image/conceptualtoyaskinghelp.jpeg);
     width: 100%;
     height: 70vh;
     background-repeat:no-repeat ;
@@ -217,7 +217,7 @@ body{
     flex-wrap: wrap;
     justify-content: space-between; 
     align-items: center;
-    background-image: url('image/banner/b14.png');
+    background-image: url(image/newsletter.jpeg);
     background-repeat: no-repeat;
     background-position: 20% 30% ;
     background-color: #041e42;
@@ -348,7 +348,7 @@ text-align: center;
 /* contact us */
 /* contact-page */
 #pg-banner.contact-header{
-    background-image: url('image/developerpage.jpeg');
+    background-image: url(image/developerpage.jpeg);
     height: 70vh;
     background-repeat:no-repeat ;
     background-size:cover;
@@ -492,7 +492,7 @@ text-align: center;
     width: 100%;
     position: absolute;
     background-color: black;
-    background-image:url('image/towardsselfhealthblog.jpeg');
+    background-image:url(image/towardsselfhealthblog.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -743,7 +743,7 @@ span {
 /* about page */
 
 #pg-banner.about{
-    background-image: url('image/groupconvohelps.jpeg');
+    background-image: url(image/groupconvohelps.jpeg);
     width: 100%;
     height: 60vh;
     image-orientation: inherit;
