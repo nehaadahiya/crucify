@@ -485,14 +485,14 @@ text-align: center;
 
  /*services */
  /* quote of the day */
- body .quotes{
+ .quotes{
     overflow-x: hidden;
     overflow-y: hidden; 
     height: 100%;
     width: 100%;
     position: absolute;
     background-color: black;
-    background-image: url('https://wallpapercave.com/wp/5KLTq1z.jpg');
+    background-image:url('image/towardsselfhealthblog.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -618,8 +618,8 @@ span {
   padding-top: 5px;
   text-decoration: none;
   opacity: 0.6;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   border: thin solid white;
   height: 40px;
   width: 100px;
@@ -629,7 +629,7 @@ span {
 }
 
 #gen:hover {
-  background-color: white;
+  background-color: #088178;
   color: black;
   border: thin solid black;
   opacity: 0.8;
@@ -662,7 +662,15 @@ span {
     /* blog page */
 
 #pg-banner.blog-header{
-    background-image:url('image/blog\ banner.jpg');
+    background-image:url('image/happymental\ health.jpeg');
+    width: 100%;
+    height: 60vh;
+    image-orientation: inherit;
+    color:#fff !important;
+    justify-content: center;
+    background-repeat:no-repeat ;
+    background-size:cover;
+    background-position: center; 
 }
 
 #blog{
@@ -735,21 +743,26 @@ span {
 /* about page */
 
 #pg-banner.about{
-    background-image: url('image/about.jpg');
-    /* height:max-content; */
-   height: 500px;
+    background-image: url('image/groupconvohelps.jpeg');
+    width: 100%;
+    height: 60vh;
+    image-orientation: inherit;
+    color:#fff !important;
+    justify-content: center;
+    background-repeat:no-repeat ;
+    background-size:cover;
+    background-position: center;
+    
 }
       
 #about-head{
     display: flex;
-    align-items: center;
+    align-items:inherit
 }
- 
-#about-head img{
-    width:50%;
-    height:auto;
-}
+
      
 #about-head div{
     padding-left: 40px ;
 }
+
+
